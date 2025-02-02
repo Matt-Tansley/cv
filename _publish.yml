@@ -1,0 +1,4 @@
+- source: cv-html-typst.qmd
+  quarto-pub:
+    - id: c16f2fe7-b18f-46c3-bf2d-2a77ff2c62f9
+      url: 'https://matt-tansley.quarto.pub/cv'
