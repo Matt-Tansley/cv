@@ -1,59 +1,77 @@
 ---
-title: "Albert Einstein's CV"
+pagetitle: "Matt Tansley"
 author:
-  firstname: Albert
-  lastname: Einstein
-  address: "Rämistrasse 101, CH-8092 Zürich, Switzerland, Zürich"
-  position: "Research Physicist ・ Professor"
+  firstname: Matthew
+  lastname: Tansley
+  position: "Software Engineer"
   contacts:
     - icon: fa envelope
-      text: ae@example.com
-      url: "mailto:ae@example.com"
+      text: matthew.tansley@protonmail.com
+      url: "mailto:matthew.tansley@protonmail.com"
     - icon: assets/icon/bi-house-fill.svg
-      text: example.com
-      url: https://example.com
-    - icon: fa brands orcid
-      text: 0000-0000-0000-0000
-      url: https://orcid.org/0000-0000-0000-0000
+      text: CV Website
+      url: https://matt-tansley.quarto.pub/albert-einsteins-cv/
     - icon: fa brands github
       text: GitHub
-      url: https://github.com/example
+      url: https://github.com/Matt-Tansley
     - icon: fa brands linkedin
       text: LinkedIn
-      url: https://linkedin.com/in/example
-    - icon: fa brands x-twitter
-      text: twitter
-      url: https://twitter.com/example
+      url: https://www.linkedin.com/in/matthew-o-w-tansley/
 format: 
-  html: default
+  html:
+    include-in-header:
+    - text: |
+        <link rel = "shortcut icon" href = "assets/icon/favicon.ico" />
+    css: assets/css/cv-html-typst.css   
   awesomecv-typst: default
 format-links: 
   - html
   - format: awesomecv-typst
     text: PDF
     icon: file-pdf
-
 ---
 
-::: {.content-visible when-format="awesomecv-typst"}
-## Education
+::: {.content-visible when-format="html"}
 
-{{< yaml assets/yml/education.yml >}}
-
-## Publications
-
-{{< yaml assets/yml/education.yml >}}
-
-
-## Work Experience
-
-{{< yaml assets/yml/work.yml >}}
-
-## Awards
-
-{{< yaml assets/yml/award.yml >}}
-
-## Skills
-
-{{< yaml assets/yml/skill.yml >}}
+::: {.html-cv-header}
+## Matt Tansley - Software Engineer
 :::
+
+:::
+
+## Experience
+
+**Senior Test Engineer** <br> *Assurity Consulting* [*October 2024 --- Present*]{.cvdate}
+
+**Test Engineer** <br> *Assurity Consulting* [*June 2021 --- October 2024*]{.cvdate}
+
+## Soft Skills
+
+- **Communication** Catering to technical and non-technical audiences, reporing, presentation, data visualisation 
+- **Community** mentoring, knowledge sharing, peer reviews, documentation
+- **Work Ethic** agile working, continuous learning, self-improvement
+
+## Technical Skills
+
+- **Languages** JavaScript, R, HTML/CSS, Java, Bash, SQL
+- **Technologies** AWS, SvelteJS, MySQL, Quarto, JMeter, K6, Jira
+- **Other** Relational databases, load testing, data analysis and visualisation 
+
+## Education and Certifications
+
+**BCom, Computer Science and Information Systems**, Victoria University of Wellington
+
+**AWS Certified Cloud Practitioner**
+
+**ICAgile Certified Professional**
+
+## Personal Projects
+
+**Rules reference app for Warhammer**
+
+- [Netlify App](https://heresy-quick-reference.netlify.app/)
+- [GitHub Repo](https://github.com/Matt-Tansley/heresy-quick-reference)
+
+## Interests
+
+Yoga, Baking Sourdough, Language Learning
