@@ -413,23 +413,20 @@ $endif$
     ]
   ]
   
-  show heading.where(level: 2): it => {
-    set text(
+  show heading.where(level: 3): it => [
+    #set block(
+      below: 1em,
+    )
+    #set text(
       color-middledarkgray,
-      size: 12pt,
-      weight: "thin"
+      size: 14pt,
+      weight: "regular"
     )
-    it.body
-  }
-  
-  show heading.where(level: 3): it => {
-    set text(
-      size: 10pt,
-      weight: "regular",
-      fill: color-gray,
-    )
-    smallcaps[#it.body]
-  }
+
+    #align(left)[
+      #text[#strong[#text[#it.body.text]]]
+    ]
+  ]
   
   // Contents
   create-header(firstname: author.firstname,

@@ -9,13 +9,14 @@ format:
           text: matthew.tansley@protonmail.com
           url: "mailto:matthew.tansley@protonmail.com"
         - icon: assets/icon/bi-house-fill.svg
-          text: CV Website
+          text: https://matt-tansley.quarto.pub/cv/
           url: https://matt-tansley.quarto.pub/cv/
         - icon: fa brands github
-          text: GitHub
+          text: https://github.com/Matt-Tansley
           url: https://github.com/Matt-Tansley
         - icon: fa brands linkedin
-          text: LinkedIn
+          text: https://www.linkedin.com/in/matthew-o-w-tansley/
           url: https://www.linkedin.com/in/matthew-o-w-tansley/
     style:
       color-accent: "000000"
+    shift-heading-level-by: -1
