@@ -30,7 +30,6 @@ css: assets/css/cv-html.css
 
 [{{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/matthew-o-w-tansley/)]{.p-2}
 
-
 :::
 
 :::
@@ -39,37 +38,40 @@ css: assets/css/cv-html.css
 
 ## Experience
 
-**Senior Test Engineer** <br> *Assurity Consulting* [*October 2024 --- Present*]{style="float:right"}
+#### Assurity Consulting
 
-**Test Engineer** <br> *Assurity Consulting* [*June 2021 --- October 2024*]{style="float:right"}
+**Senior Test Engineer** [*October 2024 --- Present*]{style="float:right"}
 
-## Soft Skills
+**Test Engineer** [*June 2021 --- October 2024*]{style="float:right"}
 
-- **Communication** Catering to technical and non-technical audiences, reporing, presentation, data visualisation 
-- **Community** mentoring, knowledge sharing, peer reviews, documentation
-- **Work Ethic** agile working, continuous learning, self-improvement
+- Did this
+- Did that
 
 ## Technical Skills
 
-- **Languages** JavaScript, R, HTML/CSS, Java, Bash, SQL
-- **Technologies** AWS, SvelteJS, MySQL, Quarto, JMeter, K6, Jira
-- **Other** Relational databases, load testing, data analysis and visualisation 
+- **Languages:** JavaScript, HTML/CSS, R, Java, Bash, SQL
+- **Testing Tools:** Postman, JMeter, k6
+- **Other Tools:** GitHub Actions, AWS, Jira, Cloud Foundry
+- **Concepts:** Automation Testing, Agile, Load Testing, Data Analysis, Data Visualisation 
 
 ## Education and Certifications
 
-**BCom, Computer Science and Information Systems**, Victoria University of Wellington
+**Education:** Bachelor of Commerce, Computer Science and Information Systems, Victoria University of Wellington
 
-**AWS Certified Cloud Practitioner**
-
-**ICAgile Certified Professional**
+**Certifications:** AWS Certified Cloud Practitioner, ICAgile Certified Professional
 
 ## Personal Projects
 
-**Rules reference app for Warhammer**
+**CV** [| [CV Website](https://matt-tansley.quarto.pub/cv/) | [GitHub Repo](https://github.com/Matt-Tansley/cv)]{.content-visible when-format="html"}
 
-- [Netlify App](https://heresy-quick-reference.netlify.app/)
-- [GitHub Repo](https://github.com/Matt-Tansley/heresy-quick-reference)
+- Multi-format CV in HTML and PDF (Typst), using Quarto publishing engine.
+- Deployed and hosted on Quarto Pub.
+
+**Warhammer Rules Reference** [| [Netlify App](https://heresy-quick-reference.netlify.app/) | [GitHub Repo](https://github.com/Matt-Tansley/heresy-quick-reference)]{.content-visible when-format="html"}
+
+- JS/SvelteKit app to quickly and conveniently browse rules while playing. 
+- Used R to parse XML files for data.
 
 ## Interests
 
-Yoga, Baking Sourdough, Language Learning
+Yoga, Sourdough, Language Learning, Board Games
