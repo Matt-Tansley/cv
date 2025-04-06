@@ -1,3 +1,14 @@
 #html-cv-header {
   text-align: center;
+  background-color: #2c3e50;
+  color: white;
+}
+
+#html-cv-header-contacts {
+  text-align: center;
+  background-color: #eaecee;
+}
+
+#html-cv-header-contacts>p {
+  margin: 0;
 }

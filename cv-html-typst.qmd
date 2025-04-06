@@ -16,13 +16,15 @@ css: assets/css/cv-html.css
 
 ::: {.content-visible when-format="html"}
 
-::: {#html-cv-header}
+::: {#html-cv-header .p-2}
 
 [Matt Tansley]{.display-2}
 
 [Software Engineer & Tester]{.lead}
 
-::: {#html-cv-header-contacts .d-flex .flex-column .flex-md-row .justify-content-center}
+:::
+
+::: {#html-cv-header-contacts .d-flex .flex-column .flex-md-row .justify-content-center .p-2 .mb-5}
 
 [{{< fa envelope >}} [matthew.tansley@protonmail.com](mailto:matthew.tansley@protonmail.com)]{.p-2}
 
@@ -34,15 +36,13 @@ css: assets/css/cv-html.css
 
 :::
 
-:::
-
 ## Experience
 
 #### Assurity Consulting
 
-**Senior Test Engineer** [*October 2024 --- Present*]{style="float:right"}
+**Senior Test Engineer**, *October 2024 --- Present*
 
-**Test Engineer** [*June 2021 --- October 2024*]{style="float:right"}
+**Test Engineer**, *June 2021 --- October 2024*
 
 - Did this
 - Did that
