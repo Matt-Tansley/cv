@@ -1,0 +1,21 @@
+format:
+  awesomecv-typst:
+    author:
+      firstname: Matt
+      lastname: Tansley
+      position: "Software Engineer & Tester"
+      contacts:
+        - icon: fa envelope
+          text: matthew.tansley@protonmail.com
+          url: "mailto:matthew.tansley@protonmail.com"
+        - icon: assets/icon/bi-house-fill.svg
+          text: CV Website
+          url: https://matt-tansley.quarto.pub/cv/
+        - icon: fa brands github
+          text: GitHub
+          url: https://github.com/Matt-Tansley
+        - icon: fa brands linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/matthew-o-w-tansley/
+    style:
+      color-accent: "000000"

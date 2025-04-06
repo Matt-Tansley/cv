@@ -1,0 +1,5 @@
+format: 
+  html:
+    include-in-header:
+    - text: |
+        <link rel = "shortcut icon" href = "assets/icon/favicon.ico" />

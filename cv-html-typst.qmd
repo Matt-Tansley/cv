@@ -1,49 +1,47 @@
 ---
-pagetitle: "Matt Tansley"
-author:
-  firstname: Matthew
-  lastname: Tansley
-  position: "Software Engineer"
-  contacts:
-    - icon: fa envelope
-      text: matthew.tansley@protonmail.com
-      url: "mailto:matthew.tansley@protonmail.com"
-    - icon: assets/icon/bi-house-fill.svg
-      text: CV Website
-      url: https://matt-tansley.quarto.pub/albert-einsteins-cv/
-    - icon: fa brands github
-      text: GitHub
-      url: https://github.com/Matt-Tansley
-    - icon: fa brands linkedin
-      text: LinkedIn
-      url: https://www.linkedin.com/in/matthew-o-w-tansley/
-format: 
-  html:
-    include-in-header:
-    - text: |
-        <link rel = "shortcut icon" href = "assets/icon/favicon.ico" />
-    css: assets/css/cv-html-typst.css   
+pagetitle: "Matt Tansley" # Title for browser tab
+format: # Required for multi-format publishing. Metadata for the formats is further defined in separate .yml files.
+  html: default
   awesomecv-typst: default
+metadata-files:
+  - html-settings.yml
+  - awesomecv-typst-settings.yml
 format-links: 
   - html
   - format: awesomecv-typst
     text: PDF
     icon: file-pdf
+css: assets/css/cv-html.css   
 ---
 
 ::: {.content-visible when-format="html"}
 
-::: {.html-cv-header}
-## Matt Tansley - Software Engineer
+::: {#html-cv-header}
+
+[Matt Tansley]{.display-2}
+
+[Software Engineer & Tester]{.lead}
+
+::: {#html-cv-header-contacts .d-flex .flex-column .flex-md-row .justify-content-center}
+
+[{{< fa envelope >}} [matthew.tansley@protonmail.com](mailto:matthew.tansley@protonmail.com)]{.p-2}
+
+[{{< fa brands github >}} [GitHub](https://github.com/Matt-Tansley)]{.p-2}
+
+[{{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/matthew-o-w-tansley/)]{.p-2}
+
+
+:::
+
 :::
 
 :::
 
 ## Experience
 
-**Senior Test Engineer** <br> *Assurity Consulting* [*October 2024 --- Present*]{.cvdate}
+**Senior Test Engineer** <br> *Assurity Consulting* [*October 2024 --- Present*]{style="float:right"}
 
-**Test Engineer** <br> *Assurity Consulting* [*June 2021 --- October 2024*]{.cvdate}
+**Test Engineer** <br> *Assurity Consulting* [*June 2021 --- October 2024*]{style="float:right"}
 
 ## Soft Skills
 
