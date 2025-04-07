@@ -9,7 +9,4 @@
 # Tips
 
 - Quarto includes Bootstrap bu default, which means you can use all of Bootstrap's pre-defined classes!
-
-# Bugs
-
-- When I set my name to an h1 (e.g `# Matt Tansley`) in the HTML header, for some reason it ruins the header stylings of the typst PDF.
+- The Typst format has been configured to use `shift-heading-level-by: -1` which means all heading levels are shifted back by one. e.g Typst will treat h2 as h1, h3 as h2, etc. 
