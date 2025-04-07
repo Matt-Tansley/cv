@@ -57,14 +57,14 @@ I am a dedicated and focused test engineer with experience in automation and per
 - Contributed to the graduate programme by preparing and delivering an introductory session on SQL and databases.
 - Demonstrated keenness to continuously learn by obtaining certifications.
 
+{{< pagebreak >}}
+
 ## Technical Skills
 
 - **Languages:** JavaScript, HTML/CSS, R, Java, Bash, SQL
 - **Testing Tools:** Postman, JMeter, k6
 - **Other Tools:** GitHub Actions, AWS, Jira, Cloud Foundry, Quarto
 - **Concepts:** Automation Testing, Agile, Performance Testing, Data Analysis, Data Visualisation 
-
-{{< pagebreak >}}
 
 ## Personal Projects
 
