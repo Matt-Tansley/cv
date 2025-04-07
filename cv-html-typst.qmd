@@ -36,6 +36,10 @@ css: assets/css/cv-html.css
 
 :::
 
+## Summary
+
+I am a dedicated and focused test engineer with experience in automation and performance testing, and a passion for continuous learning, especially in modern tools and best practices. I value collaborative environments where building strong relationships helps drive meaningful outcomes and shared success. I'm seeking a supportive and growth-oriented team culture where I can contribute my skills, learn from others, and help deliver high-quality software.
+
 ## Experience
 
 #### Assurity Consulting
@@ -44,33 +48,42 @@ css: assets/css/cv-html.css
 
 **Test Engineer**, *June 2021 --- October 2024*
 
-- Did this
-- Did that
+- Maintained a large existing JMeter regression test suite covering a website, APIs, and authentication. As information was often scattered and incomplete, I took the initiative to consolidate existing documentation and create new material where it did not exist. This required gaining a deep understanding of the test suite, and close collaboration with team members and stakeholders to leverage their knowledge.
+- Upskilled in k6, a modern JavaScript-based load testing tool, through a short-term project. I successfully learned and applied the new tool, and as a result the test suite was more maintainable and followed better software engineering practices compared to JMeter.
+- Acted as a product owner for an internal project. Improved upon my skills of facilitation, prioritisation, and task management using Jira. Later, I joined a project that was tracking work in a spreadsheet; I introduced Jira and facilitated stand-ups, significantly improving collaboration and visibility.
+- Collaborated closely with stakeholders to design realistic load test scenarios. While technical correctness is important, real-user feedback is important in understanding how a system truly operates. 
+- Introduced automated report generation into our workflow using Quarto, improving consistency of visualisations and saving time by eliminating the need to manually create and copy-paste images. For example, one report that previously took 3 hours now takes under 30 minutes.
+- Mentored and guided new team members joining the company, including helping more experienced colleagues upskill in tools used by our team such as GitHub Actions and our in-house cloud platform.
+- Contributed to the graduate programme by preparing and delivering an introductory session on SQL and databases.
+- Demonstrated keenness to continuously learn by obtaining certifications.
 
 ## Technical Skills
 
 - **Languages:** JavaScript, HTML/CSS, R, Java, Bash, SQL
 - **Testing Tools:** Postman, JMeter, k6
-- **Other Tools:** GitHub Actions, AWS, Jira, Cloud Foundry
-- **Concepts:** Automation Testing, Agile, Load Testing, Data Analysis, Data Visualisation 
+- **Other Tools:** GitHub Actions, AWS, Jira, Cloud Foundry, Quarto
+- **Concepts:** Automation Testing, Agile, Performance Testing, Data Analysis, Data Visualisation 
 
-## Education and Certifications
-
-**Education:** Bachelor of Commerce, Computer Science and Information Systems, Victoria University of Wellington
-
-**Certifications:** AWS Certified Cloud Practitioner, ICAgile Certified Professional
+{{< pagebreak >}}
 
 ## Personal Projects
 
 **CV** [| [CV Website](https://matt-tansley.quarto.pub/cv/) | [GitHub Repo](https://github.com/Matt-Tansley/cv)]{.content-visible when-format="html"}
 
 - Multi-format CV in HTML and PDF (Typst), using Quarto publishing engine.
-- Deployed and hosted on Quarto Pub.
+- Deployment with GitHub Actions and hosted on Quarto Pub.
 
 **Warhammer Rules Reference** [| [Netlify App](https://heresy-quick-reference.netlify.app/) | [GitHub Repo](https://github.com/Matt-Tansley/heresy-quick-reference)]{.content-visible when-format="html"}
 
-- JS/SvelteKit app to quickly and conveniently browse rules while playing. 
-- Used R to parse XML files for data.
+- JS SvelteKit app to quickly and conveniently browse rules while playing. 
+- Deployed and hosted on Netlify. 
+- Used R to parse XML files for original data.
+
+## Education and Certifications
+
+**Education:** Bachelor of Commerce, Computer Science and Information Systems, Victoria University of Wellington
+
+**Certifications:** AWS Certified Cloud Practitioner, ICAgile Certified Professional
 
 ## Interests
 
