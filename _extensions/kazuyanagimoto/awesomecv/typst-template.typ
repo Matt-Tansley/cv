@@ -330,8 +330,8 @@
   author: (:),
   date: datetime.today().display("[month repr:long] [day], [year]"),
   profile-photo: "",
-  font-header: "Roboto",
-  font-text: "Source Sans 3",
+  font-header: "Arial",
+  font-text: "Arial",
   color-accent: rgb("#dc3522"),
   color-link: color-darknight,
   title-meta: none,
@@ -411,10 +411,17 @@
   show heading.where(level: 2): it => {
     set text(
       color-middledarkgray,
-      size: 12pt,
-      weight: "thin",
+      size: 14pt,
     )
-    it.body
+
+    context {
+      align(left)[
+        #text[#text(state-color-accent.get())[#it.body.text.slice(0, 3)]#text(
+            color-darkgray,
+          )[#it.body.text.slice(3)]]
+        #box(width: 1fr)
+      ]
+    }
   }
 
   show heading.where(level: 3): it => {

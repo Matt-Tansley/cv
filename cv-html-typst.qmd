@@ -2,7 +2,7 @@
 pagetitle: "Matt Tansley" # Title for browser tab
 format: # Required for multi-format publishing. Metadata for the formats is further defined in separate .yml files.
   html: default
-  awesomecv-typst: default
+  awesomecv-typst: default  
 metadata-files:
   - html-settings.yml
   - awesomecv-typst-settings.yml
@@ -42,7 +42,7 @@ I am a dedicated and focused test engineer with experience in automation and per
 
 ## Experience
 
-#### PartsTrader
+### PartsTrader
 
 **Test Engineer**, *May 2025 --- Present*
 
@@ -54,7 +54,7 @@ I am a dedicated and focused test engineer with experience in automation and per
 - Contributed to continuous improvement by facilitating a team retrospective.
 - Demonstrated contributions to company culture and engagement by supporting the Summer of Tech Meet and Greet, volunteering as a fire warden, and organising the PartsTrader 2025 Dragon Boat team to build cross‑team collaboration in a social setting.
 
-#### Assurity Consulting
+### Assurity Consulting
 
 **Senior Test Engineer**, *October 2024 --- May 2025*
 
@@ -68,8 +68,6 @@ I am a dedicated and focused test engineer with experience in automation and per
 - Mentored and guided new team members joining the company, including helping more experienced colleagues upskill in tools used by our team such as GitHub Actions and our in-house cloud platform.
 - Contributed to the graduate programme by preparing and delivering an introductory session on SQL and databases.
 - Demonstrated keenness to continuously learn by obtaining certifications.
-
-{{< pagebreak >}}
 
 ## Technical Skills
 
