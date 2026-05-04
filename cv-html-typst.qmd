@@ -42,9 +42,21 @@ I am a dedicated and focused test engineer with experience in automation and per
 
 ## Experience
 
+#### PartsTrader
+
+**Test Engineer**, *May 2025 --- Present*
+
+- Built and maintained a Cypress automated test suite for the new Invoices micro‑frontend, ensuring it is in-line with development standards and existing test suites.
+- Supporting the use of Playwright across PartsTrader by contributing to the shared testing library, improving consistency, reuse, and long‑term maintainability while reducing duplicated effort between teams.
+- Gained experience with C#/.NET, domain‑driven design, and PartsTrader microservice standards through collaboration with developers on my team.
+- Developed a PowerShell email sender utility to automate RepairerStatement test scenarios, eliminating repetitive manual tasks and ensuring test repeatability.
+- Built and containerised a dashboard using R, Docker, and AWS ECR to replace a manual Excel-based reporting process for RepairerStatement. This has significantly improved accessibility of results and reduced time spent updating a spreadsheet.
+- Contributed to continuous improvement by facilitating a team retrospective.
+- Demonstrated contributions to company culture and engagement by supporting the Summer of Tech Meet and Greet, volunteering as a fire warden, and organising the PartsTrader 2025 Dragon Boat team to build cross‑team collaboration in a social setting.
+
 #### Assurity Consulting
 
-**Senior Test Engineer**, *October 2024 --- Present*
+**Senior Test Engineer**, *October 2024 --- May 2025*
 
 **Test Engineer**, *June 2021 --- October 2024*
 
@@ -61,9 +73,9 @@ I am a dedicated and focused test engineer with experience in automation and per
 
 ## Technical Skills
 
-- **Languages:** JavaScript, HTML/CSS, R, Java, Bash, SQL
-- **Testing Tools:** Postman, JMeter, k6
-- **Other Tools:** GitHub Actions, AWS, Jira, Cloud Foundry, Quarto
+- **Languages:** JavaScript, HTML/CSS, C#/.NET, PowerShell, R, Bash, SQL
+- **Testing Tools:** Playwright, Cypress, Insomnia & Postman, JMeter, k6
+- **Other Tools:** GitHub Actions, AWS, Docker, Jira
 - **Concepts:** Automation Testing, Agile, Performance Testing, Data Analysis, Data Visualisation 
 
 ## Personal Projects
